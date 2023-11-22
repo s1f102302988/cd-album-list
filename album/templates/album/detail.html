@@ -17,7 +17,7 @@
             <h2>Tracks</h2>
             <ol>
                 {% for track in tracks %}
-                <li>{{ track.name }}</li>
+                <li>{{ track.name }} (Genre: {{ track.genre.name }})</li>
                 {% endfor %}
             </ol>
             <hr>
